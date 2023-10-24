@@ -75,9 +75,9 @@ fun MainScreen() {
 
     var imageIndex by remember { mutableStateOf(0) }
     val images = listOf(
-        R.drawable.pica, // Reemplaza con tus nombres de archivo de imagen
-        R.drawable.pica2, // Reemplaza con tus nombres de archivo de imagen
-        R.drawable.van // Reemplaza con tus nombres de archivo de imagen
+        R.drawable.pica, 
+        R.drawable.pica2, 
+        R.drawable.van 
     )
 
 
@@ -173,7 +173,7 @@ fun MainScreen() {
 
         Image(
             painter = painterResource(id = images[imageIndex]),
-            contentDescription = null, // Reemplaza con la descripción de la imagen si es necesario
+            contentDescription = null, 
             modifier = Modifier.padding(16.dp)
         )
 
